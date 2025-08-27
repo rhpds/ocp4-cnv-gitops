@@ -74,12 +74,3 @@ compliance:
     # env:
     # - name: PLATFORM
     #   value: "HyperShift"
-
-showroom:
-  namespace: showroom
-  addons:
-    repoPath: showroom
-    repoRef: showroom
-  content:
-    repoUrl: https://github.com/rhpds/showroom_template_default.git
-    repoRef: main
