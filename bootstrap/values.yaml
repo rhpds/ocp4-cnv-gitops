@@ -33,6 +33,7 @@ devspaces:
 rhoai:
   path: rhoai
   namespace: redhat-ods-operator
+  # channel: stable
   # startingCSV: rhods-operator.x.y.z
   # Set to empty to NOT install the datasciencecluster
   # Not defining the key installs the datasciencecluster

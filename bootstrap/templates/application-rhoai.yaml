@@ -15,6 +15,9 @@ spec:
       values: |
         operator:
           namespace: {{ .Values.rhoai.namespace }}
+          {{- if .Values.rhoai.channel }}
+          channel: {{ .Values.rhoai.channel }}
+          {{- end }}
           {{- if .Values.rhoai.startingCSV }}
           startingCSV: {{ .Values.rhoai.startingCSV }}
           {{- end }}
