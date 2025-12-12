@@ -34,6 +34,7 @@ spec:
           namespace: redhat-ods-applications
           dashboard:
             replicas: 1
+          route: {{ .Values.rhoai.patcher.route }}
         helper-status-checker:
           approver: true
           checks:
